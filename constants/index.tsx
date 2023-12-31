@@ -90,19 +90,22 @@ export const Projects = [
     website: "https://spacelnvader-landing-page.netlify.app/",
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    title: "Gaec de la Braye",
+    text: "Site internet pour une exploitation agricole. Présentation de l'exploitation, des produits, des prix, idées recette et formulaire de contact avec QCM facultatif.",
+    src: "/gaecdelabraye.png",
+    website: "https://spacelnvader-landing-page.netlify.app/",
   },
   {
     title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: "Mise en avant de mes projets et de mes compétences. Créé avec Nextjs et Tailwind CSS.",
     src: "/WebPortfolio.png",
+    website: "/",
   },
   {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    title: "Aiig.Space",
+    text: "Affichage d'un prompt pour créer des image à partir d'un texte qui utilise la base de données d'OpenAI",
+    src: "/aiig.png",
+    website: "https://aiig.space/",
   },
 ];
 

@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import {motion} from 'framer-motion'
+import Link from 'next/link'
 
 interface Props {
     image: string;
@@ -52,8 +53,9 @@ const ProjectCard = ({ image, title, text, website}: Props) => {
           </div>
         </motion.div>
       </div>
-      {/* A POURSUIVRE ON EST SUR UNE BONNE IDEE LA */}
-      {/* <a href={website}>Voir le site</a> */}
+      <div className='rounded-[20px] group relative bg-gradient-to-r from-purple-500 to-blue-500 hover:bg-blue-400 px-3 py-1 text-lg text-white max-w-[190px]'>
+      <h1 className='text-white font-semibold'><Link href={website} target="_blank">Voir le site internet</Link></h1>
+      </div>
     </div>
   )
 }
