@@ -23,8 +23,8 @@ const Navbar = () => {
           </span>
         </h1>
       </div>
-
-      <div className="flex flex-row gap-5 mb-2">
+      {/* LISTE DES RESEAUX SOCIAUX A AJOUTER */}
+      {/* <div className="flex flex-row gap-5 mb-2">
         {Socials.map((social) => (
           <Image
             key={social.name}
@@ -34,7 +34,7 @@ const Navbar = () => {
             height={28}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
