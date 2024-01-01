@@ -93,7 +93,7 @@ export const Projects = [
     title: "Gaec de la Braye",
     text: "Site internet pour une exploitation agricole. Présentation de l'exploitation, des produits, des prix, idées recette et formulaire de contact avec QCM facultatif.",
     src: "/gaecdelabraye.png",
-    website: "https://spacelnvader-landing-page.netlify.app/",
+    website: "https://gaec-de-la-braye.fr/",
   },
   {
     title: "Modern Nextjs Portfolio",
