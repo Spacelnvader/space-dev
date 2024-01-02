@@ -30,7 +30,7 @@ export default function Home() {
               Mes projets
             </Link>
             <Link
-              href="/contact"
+              href="/contact-me"
               className="rounded-[20px] group relative bg-gradient-to-r from-purple-500 to-blue-500 px-5  py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hver:opacity-20" />
